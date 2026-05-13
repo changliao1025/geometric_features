@@ -5,6 +5,7 @@ import numpy
 from netCDF4 import Dataset
 
 matplotlib.use('Agg')
+import matplotlib.pyplot as plt
 import scipy.ndimage.filters as filters
 from mpl_toolkits.basemap import interp
 

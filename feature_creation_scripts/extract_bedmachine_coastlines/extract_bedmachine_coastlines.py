@@ -13,11 +13,8 @@ from shapely.geometry import Polygon, mapping
 from shapely.ops import unary_union
 from skimage import measure
 
-from geometric_features import (
-    FeatureCollection,
-    GeometricFeatures,
-    read_feature_collection,
-)
+from geometric_features import (FeatureCollection, GeometricFeatures,
+                                read_feature_collection)
 from geometric_features.utils import write_feature_names_and_tags
 
 """

@@ -115,7 +115,7 @@ def basin_masks_to_features():
 
     fc = fc.fix_antimeridian()
     fc.plot(projection='southpole')
-    plt.savefig('ISMIP6_basins.png')
+    plt.savefig(f'ISMIP6_basins.png')
 
     for feature in fc.features:
         fc_plot = FeatureCollection()

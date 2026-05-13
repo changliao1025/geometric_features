@@ -16,11 +16,8 @@ import progressbar
 import shapely.geometry
 import shapely.ops
 
-from geometric_features.plot import (
-    build_projections,
-    plot_base,
-    subdivide_geom,
-)
+from geometric_features.plot import (build_projections, plot_base,
+                                     subdivide_geom)
 from geometric_features.utils import provenance_command
 
 
