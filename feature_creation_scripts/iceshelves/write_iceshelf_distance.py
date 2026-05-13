@@ -6,7 +6,6 @@ import skfmm
 from netCDF4 import Dataset
 
 matplotlib.use('Agg')
-import matplotlib.pyplot as plt
 import scipy.ndimage.morphology as morphology
 
 inFileName = 'Bedmap2.nc'

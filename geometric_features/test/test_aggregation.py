@@ -1,11 +1,20 @@
 from geometric_features import GeometricFeatures
-from geometric_features.aggregation import (antarctic, arctic_ocean,
-                                            arctic_seaice, arctic_transport,
-                                            basins, get_aggregator_by_name,
-                                            ice_shelves, ismip6,
-                                            ismip6_greenland, moc,
-                                            nasa_greenland, qgreenland_seaice,
-                                            subbasins, transport)
+from geometric_features.aggregation import (
+    antarctic,
+    arctic_ocean,
+    arctic_seaice,
+    arctic_transport,
+    basins,
+    get_aggregator_by_name,
+    ice_shelves,
+    ismip6,
+    ismip6_greenland,
+    moc,
+    nasa_greenland,
+    qgreenland_seaice,
+    subbasins,
+    transport,
+)
 from geometric_features.test import TestCase
 
 

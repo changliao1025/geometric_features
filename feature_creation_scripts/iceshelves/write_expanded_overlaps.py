@@ -7,7 +7,6 @@ import numpy
 from netCDF4 import Dataset
 
 matplotlib.use('Agg')
-import matplotlib.pyplot as plt
 import skfmm
 
 

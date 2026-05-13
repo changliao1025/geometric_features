@@ -1,8 +1,10 @@
 import argparse
 import os
 
-from geometric_features.feature_collection import (FeatureCollection,
-                                                   read_feature_collection)
+from geometric_features.feature_collection import (
+    FeatureCollection,
+    read_feature_collection,
+)
 from geometric_features.geometric_features import GeometricFeatures
 from geometric_features.version import __version__
 
